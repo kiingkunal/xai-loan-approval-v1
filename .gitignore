@@ -1,0 +1,41 @@
+# Data and model artifacts (regenerated via scripts, not committed)
+data/*
+!data/README.md
+!data/download_data.py
+models/
+reports/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Env / secrets
+.env
+.claude/
+.codex/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
